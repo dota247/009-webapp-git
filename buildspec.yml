@@ -16,7 +16,7 @@ phases:
     commands:
       - echo "SAM packaging completed on `date`"
 artifacts:
-  type: None
+  type: zip
   paths:
     - './**/*'
 cache:
